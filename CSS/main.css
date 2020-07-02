@@ -75,3 +75,9 @@ ul {
 
   margin-top: 50px;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+}
