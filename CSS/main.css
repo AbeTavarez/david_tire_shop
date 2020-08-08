@@ -96,6 +96,10 @@ li {
   font-family: "Holtwood One SC";
   letter-spacing: 3px;
 }
+
+.towing {
+  padding-top: 50px;
+}
 .map-title {
   font-size: 42px;
   background-color: #322f3d;
