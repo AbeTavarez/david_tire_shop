@@ -28,13 +28,29 @@ body {
 }
 .container {
   max-width: 960px;
-  margin: 30px auto;
+  margin: 0px auto;
 }
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #393e46;
+  padding: 10px;
+  border-radius: 5%;
+  color: white;
+  margin-bottom: 35px;
+}
+a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
 header h1 {
   font-family: "Holtwood One SC";
   font-size: 56px;
   letter-spacing: 5px;
-  color: #f7ff00;
+  color: #fff;
 }
 .services {
   font-size: 28px;
@@ -55,6 +71,7 @@ h3 {
 .moto-mec {
   font-size: 42px;
   font-family: "Holtwood One SC";
+  color: #f7ff00;
 }
 
 ul {
@@ -111,7 +128,13 @@ li {
 .maps {
   align-items: center;
   display: flex;
+  flex-direction: column;
   margin-top: 50px;
+}
+.frames {
+  width: 800px;
+  height: 400px;
+  margin: 15px 0;
 }
 footer {
   display: flex;
@@ -129,6 +152,18 @@ footer {
   .tow-img {
     max-width: 100%;
   }
+
+  .moto-mec {
+    font-size: 28px;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  .frames {
+    width: 250px;
+    height: 200px;
+    margin: 15px 0;
+  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -136,10 +171,10 @@ footer {
 /* Portrait */
 @media (max-width: 935px) {
   .random-img {
-    width: 700px;
+    width: 600px;
   }
   .tow-img {
-    max-width: 100%;
+    max-width: 400px;
   }
 }
 
@@ -147,11 +182,8 @@ footer {
 
 /* Portrait */
 @media (max-width: 908px) {
-  iframe {
-    width: 500px;
-  }
   .tow-img {
-    max-width: 100%;
+    max-width: 400px;
   }
   .random-img {
     width: 600px;
@@ -166,14 +198,12 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  iframe {
-    width: 400px;
-  }
+
   .tow-img {
-    max-width: 100%;
+    max-width: 300px;
   }
   .random-img {
-    width: 500px;
+    width: 400px;
   }
   header h1 h2 h3 {
     font-size: 26px;
@@ -185,19 +215,19 @@ footer {
 /* Portrait */
 @media (max-width: 608px) {
   .random-img {
-    width: 400px;
+    width: 300px;
   }
   .tow-img {
-    max-width: 100%;
+    max-width: 300px;
   }
 }
 
 /* Portrait */
 @media (max-width: 468px) {
   .random-img {
-    width: 300px;
+    width: 200px;
   }
   .tow-img {
-    max-width: 100%;
+    max-width: 300px;
   }
 }
