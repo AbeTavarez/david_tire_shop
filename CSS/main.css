@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
 /*Reset*/
 * {
   margin: 0;
@@ -9,41 +10,39 @@
 body {
   text-align: center;
   color: white;
-
-  background: #0f0c29; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #24243e,
-    #302b63,
-    #0f0c29
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #24243e,
-    #302b63,
-    #0f0c29
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  background-image: url("/assets/tirewall.jpg");
 }
 .container {
-  max-width: 960px;
   margin: 0px auto;
 }
+nav {
+  background-color: #d70000;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #393e46;
   padding: 10px;
   border-radius: 5%;
   color: white;
   margin-bottom: 35px;
+  border-bottom: white 2px solid;
 }
-a {
-  color: white;
+
+ul a {
+  font-family: "Holtwood One SC";
+  color: #fff;
   font-size: 24px;
   text-decoration: none;
+  padding: 5px;
+}
+.stars {
+  display: block;
+}
+
+.company-name {
+  background-image: url("/assets/motor-blue.jpg");
+  background-position: center;
 }
 
 header h1 {
@@ -53,25 +52,28 @@ header h1 {
   color: #fff;
 }
 .services {
+  background-image: url("/assets/flash-tires.jpg");
   font-size: 28px;
-  font-family: "Roboto";
+  font-family: "Aleo";
   margin-top: 100px;
 }
 .services h2 {
   font-family: "Holtwood One SC";
   letter-spacing: 3px;
-  color: #f7ff00;
+  color: #d70000;
 }
 h3 {
   padding-bottom: 40px;
 }
 .services {
   padding: 30px;
+  margin-bottom: 100px;
 }
 .moto-mec {
   font-size: 42px;
   font-family: "Holtwood One SC";
-  color: #f7ff00;
+  color: #d70000;
+  padding-bottom: 80px;
 }
 
 ul {
@@ -102,10 +104,12 @@ li {
 }
 
 .location {
+  background-image: url("/assets/tire-pile.jpg");
+  background-position: center;
   font-size: 28px;
   font-family: "Roboto";
   margin-top: 100px;
-  background-color: #322f3d;
+  /* background-color: #322f3d; */
   padding-bottom: 55px;
 }
 
@@ -118,18 +122,21 @@ li {
   padding-top: 50px;
 }
 .map-title {
+  /* background-image: url("/assets/tirewall.jpg"); */
   font-size: 42px;
-  background-color: #322f3d;
+  /* background-color: #322f3d; */
   font-family: "Holtwood One SC";
   letter-spacing: 3px;
   margin-top: 100px;
 }
 
 .maps {
+  background-image: url("/assets/road.jpg");
+  background-position: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 .frames {
   width: 800px;
@@ -149,13 +156,22 @@ footer {
 
 /* Portrait */
 @media (max-width: 966px) {
+  ul a {
+    font-size: 14px;
+  }
+  .company-name h1 {
+    font-size: 24px;
+  }
+  .moto-mec {
+    font-size: 20px;
+  }
   .tow-img {
     max-width: 100%;
   }
-
-  .moto-mec {
-    font-size: 28px;
+  .random-img {
+    width: 400px;
   }
+
   header h1 {
     font-size: 36px;
   }
@@ -171,10 +187,13 @@ footer {
 /* Portrait */
 @media (max-width: 935px) {
   .random-img {
-    width: 600px;
+    /* width: 600px; */
   }
   .tow-img {
     max-width: 400px;
+  }
+  .company-name .location {
+    background-position: center;
   }
 }
 
@@ -186,7 +205,10 @@ footer {
     max-width: 400px;
   }
   .random-img {
-    width: 600px;
+    /* width: 600px; */
+  }
+  .services .company-name .location {
+    background-position: center;
   }
 }
 
@@ -206,7 +228,19 @@ footer {
     width: 400px;
   }
   header h1 h2 h3 {
-    font-size: 26px;
+    font-size: 22px;
+  }
+  ul a {
+    font-size: 14px;
+  }
+  .company-name h1 {
+    font-size: 20px;
+  }
+  .moto-mec {
+    font-size: 18px;
+  }
+  .services .company-name .location {
+    background-position: center;
   }
 }
 
@@ -215,19 +249,46 @@ footer {
 /* Portrait */
 @media (max-width: 608px) {
   .random-img {
-    width: 300px;
+    width: 350px;
   }
   .tow-img {
     max-width: 300px;
+  }
+  .services .company-name .location {
+    background-position: center;
   }
 }
 
 /* Portrait */
 @media (max-width: 468px) {
   .random-img {
-    width: 200px;
+    width: 325px;
   }
   .tow-img {
     max-width: 300px;
+  }
+  .services .company-name .location {
+    background-position: center;
+  }
+}
+/* SMALL Phones */
+@media (max-width: 320px) {
+  .random-img {
+    width: 250px;
+  }
+  .tow-img {
+    max-width: 300px;
+  }
+  ul a {
+    font-size: 14px;
+  }
+  .company-name h1 {
+    font-size: 18px;
+  }
+  .moto-mec {
+    font-size: 14px;
+  }
+  .services .company-name .location {
+    background-position: center;
   }
 }
