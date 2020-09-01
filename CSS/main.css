@@ -161,7 +161,7 @@ footer {
     font-size: 14px;
   }
   .company-name h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
   .moto-mec {
     font-size: 20px;
@@ -177,7 +177,7 @@ footer {
     font-size: 36px;
   }
   .frames {
-    width: 350px;
+    width: 315px;
     height: 200px;
     margin: 15px 0;
   }
@@ -235,10 +235,11 @@ footer {
     font-size: 14px;
   }
   .company-name h1 {
-    font-size: 20px;
+    font-size: 28px;
+    padding: 20px;
   }
   .moto-mec {
-    font-size: 18px;
+    font-size: 22px;
   }
   .services .company-name .location {
     background-position: center;
@@ -284,10 +285,10 @@ footer {
     font-size: 14px;
   }
   .company-name h1 {
-    font-size: 18px;
+    font-size: 28px;
   }
   .moto-mec {
-    font-size: 14px;
+    font-size: 18px;
   }
   .services .company-name .location {
     background-position: center;
