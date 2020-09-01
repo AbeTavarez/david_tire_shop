@@ -25,7 +25,7 @@ nav {
   padding: 10px;
   border-radius: 5%;
   color: white;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
   border-bottom: white 2px solid;
 }
 
@@ -137,6 +137,7 @@ li {
   display: flex;
   flex-direction: column;
   margin: 50px 0;
+  padding-bottom: 25px;
 }
 .frames {
   width: 800px;
@@ -176,7 +177,7 @@ footer {
     font-size: 36px;
   }
   .frames {
-    width: 250px;
+    width: 350px;
     height: 200px;
     margin: 15px 0;
   }
