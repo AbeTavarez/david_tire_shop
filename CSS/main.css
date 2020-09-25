@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
 /*Reset*/
 * {
   margin: 0;
@@ -11,11 +11,16 @@ body {
   text-align: center;
   color: white;
 }
-.container {
+.container-main {
   margin: 0px auto;
 }
 nav {
-  background-color: #d70000;
+  /* background-color: #d70000; */
+}
+
+.brand {
+  font-size: 18px;
+  font-family: 'Holtwood One SC';
 }
 
 .nav {
@@ -30,7 +35,7 @@ nav {
 }
 
 ul a {
-  font-family: "Holtwood One SC";
+  font-family: 'Holtwood One SC';
   color: #fff;
   font-size: 24px;
   text-decoration: none;
@@ -41,24 +46,32 @@ ul a {
 }
 
 .company-name {
-  background-image: url("/assets/motor-blue.jpg");
+  background-image: url('/assets/motor-blue.jpg');
   background-position: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 header h1 {
-  font-family: "Holtwood One SC";
+  font-family: 'Holtwood One SC';
   font-size: 56px;
   letter-spacing: 5px;
   color: #fff;
 }
 .services {
-  background-image: url("/assets/flash-tires.jpg");
+  background-image: url('/assets/flash-tires.jpg');
   font-size: 28px;
-  font-family: "Aleo";
+  font-family: 'Aleo';
   margin-top: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
 }
 .services h2 {
-  font-family: "Holtwood One SC";
+  font-family: 'Holtwood One SC';
   letter-spacing: 3px;
   color: #d70000;
 }
@@ -71,7 +84,7 @@ h3 {
 }
 .moto-mec {
   font-size: 42px;
-  font-family: "Holtwood One SC";
+  font-family: 'Holtwood One SC';
   color: #d70000;
   padding-bottom: 80px;
 }
@@ -84,12 +97,18 @@ li {
 }
 
 .random-img {
-  width: 900px;
-  padding: 10px 10px 20px 10px;
-  border: 1px solid #bfbfbf;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  margin: 20px;
+  margin-top: 20px;
+  width: calc(100% - 1px);
+  height: auto;
+  /* width: 930px; */
+  /* padding: 10px 10px 20px 10px; */
+  /* border: 1px solid #bfbfbf; */
+  /* background-color: white; */
+  /* box-shadow: 10px 10px 5px #aaaaaa; */
+  /* margin: 20px; */
+}
+.photo-container {
+  align-content: center;
 }
 
 .tow-container {
@@ -104,17 +123,21 @@ li {
 }
 
 .location {
-  background-image: url("/assets/tire-pile.jpg");
+  background-image: url('/assets/tire-pile.jpg');
   background-position: center;
   font-size: 28px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   margin-top: 100px;
-  /* background-color: #322f3d; */
+  color: white;
+  text-align: center;
   padding-bottom: 55px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .location h2 {
-  font-family: "Holtwood One SC";
+  font-family: 'Holtwood One SC';
   letter-spacing: 3px;
 }
 
@@ -125,13 +148,13 @@ li {
   /* background-image: url("/assets/tirewall.jpg"); */
   font-size: 42px;
   /* background-color: #322f3d; */
-  font-family: "Holtwood One SC";
+  font-family: 'Holtwood One SC';
   letter-spacing: 3px;
   margin-top: 100px;
 }
 
 .maps {
-  background-image: url("/assets/road.jpg");
+  background-image: url('/assets/road.jpg');
   background-position: center;
   align-items: center;
   display: flex;
@@ -149,6 +172,7 @@ footer {
   justify-content: space-between;
   background-color: black;
   padding: 20px;
+  color: white;
 }
 
 /**** MEDIA QUERY ****/
@@ -170,7 +194,7 @@ footer {
     max-width: 100%;
   }
   .random-img {
-    width: 400px;
+    /* width: 400px; */
   }
 
   header h1 {
@@ -226,7 +250,7 @@ footer {
     max-width: 300px;
   }
   .random-img {
-    width: 400px;
+    /* width: 400px; */
   }
   header h1 h2 h3 {
     font-size: 22px;
@@ -251,7 +275,7 @@ footer {
 /* Portrait */
 @media (max-width: 608px) {
   .random-img {
-    width: 350px;
+    /* width: 350px; */
   }
   .tow-img {
     max-width: 300px;
@@ -264,7 +288,7 @@ footer {
 /* Portrait */
 @media (max-width: 468px) {
   .random-img {
-    width: 325px;
+    /* width: 325px; */
   }
   .tow-img {
     max-width: 300px;
@@ -276,7 +300,7 @@ footer {
 /* SMALL Phones */
 @media (max-width: 320px) {
   .random-img {
-    width: 250px;
+    /* width: 250px; */
   }
   .tow-img {
     max-width: 300px;
