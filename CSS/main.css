@@ -163,7 +163,7 @@ li {
   height: 400px;
   margin: 15px 0;
 }
-footer {
+.footer-al {
   display: flex;
   justify-content: space-between;
   background-color: black;
