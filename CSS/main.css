@@ -14,9 +14,6 @@ body {
 .container-main {
   margin: 0px auto;
 }
-nav {
-  /* background-color: #d70000; */
-}
 
 .brand {
   font-size: 18px;
@@ -64,6 +61,7 @@ header h1 {
   background-image: url('/assets/flash-tires.jpg');
   font-size: 28px;
   font-family: 'Aleo';
+  text-align: center;
   margin-top: 100px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,12 +98,7 @@ li {
   margin-top: 20px;
   width: calc(100% - 1px);
   height: auto;
-  /* width: 930px; */
-  /* padding: 10px 10px 20px 10px; */
-  /* border: 1px solid #bfbfbf; */
-  /* background-color: white; */
-  /* box-shadow: 10px 10px 5px #aaaaaa; */
-  /* margin: 20px; */
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 .photo-container {
   align-content: center;
@@ -127,6 +120,7 @@ li {
   background-position: center;
   font-size: 28px;
   font-family: 'Roboto';
+  padding-top: 30px;
   margin-top: 100px;
   color: white;
   text-align: center;
@@ -139,15 +133,14 @@ li {
 .location h2 {
   font-family: 'Holtwood One SC';
   letter-spacing: 3px;
+  color: #d70000;
 }
 
 .towing {
   padding-top: 50px;
 }
 .map-title {
-  /* background-image: url("/assets/tirewall.jpg"); */
   font-size: 42px;
-  /* background-color: #322f3d; */
   font-family: 'Holtwood One SC';
   letter-spacing: 3px;
   margin-top: 100px;
@@ -161,6 +154,9 @@ li {
   flex-direction: column;
   margin: 50px 0;
   padding-bottom: 25px;
+}
+.maps h3 {
+  color: #d70000;
 }
 .frames {
   width: 800px;
@@ -181,9 +177,9 @@ footer {
 
 /* Portrait */
 @media (max-width: 966px) {
-  ul a {
+  /* ul a {
     font-size: 14px;
-  }
+  } */
   .company-name h1 {
     font-size: 28px;
   }
@@ -193,17 +189,12 @@ footer {
   .tow-img {
     max-width: 100%;
   }
-  .random-img {
-    /* width: 400px; */
-  }
+  /* .random-img {
+    width: 400px;
+  } */
 
   header h1 {
     font-size: 36px;
-  }
-  .frames {
-    width: 315px;
-    height: 200px;
-    margin: 15px 0;
   }
 }
 
@@ -211,9 +202,9 @@ footer {
 
 /* Portrait */
 @media (max-width: 935px) {
-  .random-img {
-    /* width: 600px; */
-  }
+  /* .random-img {
+    width: 600px;
+  } */
   .tow-img {
     max-width: 400px;
   }
@@ -229,9 +220,9 @@ footer {
   .tow-img {
     max-width: 400px;
   }
-  .random-img {
-    /* width: 600px; */
-  }
+  /* .random-img {
+    width: 600px;
+  } */
   .services .company-name .location {
     background-position: center;
   }
@@ -249,15 +240,15 @@ footer {
   .tow-img {
     max-width: 300px;
   }
-  .random-img {
-    /* width: 400px; */
-  }
+  /* .random-img {
+    width: 400px;
+  } */
   header h1 h2 h3 {
     font-size: 22px;
   }
-  ul a {
+  /* ul a {
     font-size: 14px;
-  }
+  } */
   .company-name h1 {
     font-size: 28px;
     padding: 20px;
@@ -268,15 +259,20 @@ footer {
   .services .company-name .location {
     background-position: center;
   }
+  .frames {
+    width: 450px;
+    height: 300px;
+    margin: 15px 0;
+  }
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait */
 @media (max-width: 608px) {
-  .random-img {
-    /* width: 350px; */
-  }
+  /* .random-img {
+    width: 350px;
+  } */
   .tow-img {
     max-width: 300px;
   }
@@ -287,9 +283,9 @@ footer {
 
 /* Portrait */
 @media (max-width: 468px) {
-  .random-img {
-    /* width: 325px; */
-  }
+  /* .random-img {
+    width: 325px;
+  } */
   .tow-img {
     max-width: 300px;
   }
@@ -299,15 +295,15 @@ footer {
 }
 /* SMALL Phones */
 @media (max-width: 320px) {
-  .random-img {
-    /* width: 250px; */
-  }
+  /* .random-img {
+    width: 250px;
+  } */
   .tow-img {
     max-width: 300px;
   }
-  ul a {
+  /* ul a {
     font-size: 14px;
-  }
+  } */
   .company-name h1 {
     font-size: 28px;
   }
