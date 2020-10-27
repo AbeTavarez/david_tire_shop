@@ -178,6 +178,13 @@ li {
   color: white;
 }
 
+/* ----------- Services Page ----------- */
+.mmrrs {
+  font-family: 'Roboto';
+
+  color: #d70000;
+}
+
 /**** MEDIA QUERY ****/
 
 /* ----------- iPhone X ----------- */
@@ -275,6 +282,9 @@ li {
 
 /* Portrait */
 @media (max-width: 468px) {
+  .random-img {
+    height: 400px;
+  }
   .tow-img {
     max-width: 300px;
   }
@@ -297,6 +307,9 @@ li {
 }
 /* SMALL Phones */
 @media (max-width: 320px) {
+  .random-img {
+    height: 400px;
+  }
   .navbar-brand {
     font-size: 8px;
   }
