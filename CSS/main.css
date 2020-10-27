@@ -57,8 +57,14 @@ header h1 {
   letter-spacing: 5px;
   color: #fff;
 }
+.livefree {
+  font-family: 'Holtwood One SC';
+  color: #d70000;
+  text-align: center;
+}
 .services {
-  background-image: url('/assets/flash-tires.jpg');
+  background-image: url('/assets/classic.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 28px;
   font-family: 'Aleo';
   text-align: center;
@@ -98,7 +104,7 @@ li {
 .random-img {
   margin-top: 20px;
   width: calc(100% - 1px);
-  height: auto;
+  height: 800px;
   /* box-shadow: 10px 10px 5px #aaaaaa; */
 }
 .photo-container {
@@ -178,9 +184,6 @@ li {
 
 /* Portrait */
 @media (max-width: 966px) {
-  /* ul a {
-    font-size: 14px;
-  } */
   .company-name h1 {
     font-size: 28px;
   }
@@ -190,9 +193,6 @@ li {
   .tow-img {
     max-width: 100%;
   }
-  /* .random-img {
-    width: 400px;
-  } */
 
   header h1 {
     font-size: 36px;
@@ -203,9 +203,6 @@ li {
 
 /* Portrait */
 @media (max-width: 935px) {
-  /* .random-img {
-    width: 600px;
-  } */
   .tow-img {
     max-width: 400px;
   }
@@ -221,9 +218,7 @@ li {
   .tow-img {
     max-width: 400px;
   }
-  /* .random-img {
-    width: 600px;
-  } */
+
   .services .company-name .location {
     background-position: center;
   }
@@ -248,9 +243,7 @@ li {
   header h1 h2 h3 {
     font-size: 22px;
   }
-  /* ul a {
-    font-size: 14px;
-  } */
+
   .company-name h1 {
     font-size: 28px;
     padding: 20px;
@@ -272,9 +265,6 @@ li {
 
 /* Portrait */
 @media (max-width: 608px) {
-  /* .random-img {
-    width: 350px;
-  } */
   .tow-img {
     max-width: 300px;
   }
@@ -285,9 +275,6 @@ li {
 
 /* Portrait */
 @media (max-width: 468px) {
-  /* .random-img {
-    width: 325px;
-  } */
   .tow-img {
     max-width: 300px;
   }
@@ -313,15 +300,11 @@ li {
   .navbar-brand {
     font-size: 8px;
   }
-  /* .random-img {
-    width: 250px;
-  } */
+
   .tow-img {
     max-width: 300px;
   }
-  /* ul a {
-    font-size: 14px;
-  } */
+
   .company-name h1 {
     font-size: 28px;
   }
