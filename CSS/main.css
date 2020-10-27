@@ -176,11 +176,29 @@ li {
   color: white;
 }
 
-/* ----------- Services Page ----------- */
+/** ----------- Services Page ----------- */
 .mmrrs {
   font-family: 'Roboto';
 
   color: #d70000;
+}
+
+/** ----------- Animations ----------- */
+
+@keyframes dmms {
+  from {
+    top: 200px;
+  }
+  to {
+    top: 0px;
+  }
+}
+#dmms {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: dmms;
+  animation-duration: 4s;
 }
 
 /**** MEDIA QUERY ****/
