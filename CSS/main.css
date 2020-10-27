@@ -83,7 +83,7 @@ h3 {
 .moto-mec {
   font-size: 42px;
   font-family: 'Holtwood One SC';
-  color: #d70000;
+  color: white;
   padding-bottom: 80px;
 }
 
@@ -98,7 +98,7 @@ li {
   margin-top: 20px;
   width: calc(100% - 1px);
   height: auto;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  /* box-shadow: 10px 10px 5px #aaaaaa; */
 }
 .photo-container {
   align-content: center;
