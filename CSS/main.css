@@ -79,6 +79,7 @@ h3 {
 .services {
   padding: 30px;
   margin-bottom: 100px;
+  font-family: 'Roboto';
 }
 .moto-mec {
   font-size: 42px;
@@ -292,9 +293,25 @@ li {
   .services .company-name .location {
     background-position: center;
   }
+  .frames {
+    width: 400px;
+    height: 300px;
+    margin: 15px 0;
+  }
+  .footer-al {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    color: white;
+  }
 }
 /* SMALL Phones */
 @media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 8px;
+  }
   /* .random-img {
     width: 250px;
   } */
@@ -312,5 +329,10 @@ li {
   }
   .services .company-name .location {
     background-position: center;
+  }
+  .frames {
+    width: 320px;
+    height: 300px;
+    margin: 15px 0;
   }
 }
