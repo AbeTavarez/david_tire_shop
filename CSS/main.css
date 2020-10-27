@@ -66,7 +66,6 @@ header h1 {
   background-image: url('/assets/classic.jpg');
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 28px;
-  font-family: 'Aleo';
   text-align: center;
   margin-top: 100px;
   background-size: cover;
@@ -105,7 +104,6 @@ li {
   margin-top: 20px;
   width: calc(100% - 1px);
   height: 800px;
-  /* box-shadow: 10px 10px 5px #aaaaaa; */
 }
 .photo-container {
   align-content: center;
@@ -283,7 +281,7 @@ li {
 /* Portrait */
 @media (max-width: 468px) {
   .random-img {
-    height: 400px;
+    height: 300px;
   }
   .tow-img {
     max-width: 300px;
@@ -308,7 +306,7 @@ li {
 /* SMALL Phones */
 @media (max-width: 320px) {
   .random-img {
-    height: 400px;
+    height: 250px;
   }
   .navbar-brand {
     font-size: 8px;
